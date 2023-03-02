@@ -165,7 +165,7 @@ public class Wallet: CustomStringConvertible {
 
 // MARK: - HDWalletKit
 
-fileprivate extension HDWalletKit.PrivateKey {
+fileprivate extension PrivateKey {
 
     var bip44PrivateKey: PrivateKey {
 
